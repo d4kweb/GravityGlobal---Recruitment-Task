@@ -18,20 +18,20 @@
             
             <h1 class="title">Lorem Ipsum</h1>
             <p>Infinitely scalable, feature-rich and cloud-native data management and protection for modern and legacy infrastructures and SaaS platforms, managed via a single app with no hardware required.</p>
-            <a href="#" class="button">Button</a>
+            <a  class="button" onclick="openAlert(); ">Button</a>
 
         </div>
         <div style="clear:both"></div>
     </div>
 
-    <div class="overlay"></div>
-    <div class="alert">
+    <div id="overlay"></div>
+    <div id="alert">
         
         <h1>Alert!</h1>
         <p id="alertContent">You have clicked X Times to related button</p>
-        <div class="close">X</div>
+        <div class="close" onclick="closeAlert()">X</div>
 
     </div>
 
-    <script src="src/js/main.js"/>
+    <script src="src/js/main.js"></script>
 </body>
