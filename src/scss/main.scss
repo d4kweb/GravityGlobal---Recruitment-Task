@@ -65,6 +65,20 @@ body{
 		font-size:15px;
 
 	}
+	.button{
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: 700;
+		color: $text-white;
+		background-color: $primary-color;
+		padding: 16px 40px 16px 40px;
+		border-radius: 32px;
+		text-decoration: none;
+		margin-top: 32px;
+		position: absolute;
+		left: 96px;
+		bottom: 10px;
+	}
 
 }
 #image-hero{

@@ -50,6 +50,20 @@ body {
   top: 40px;
   font-size: 15px;
 }
+#alert .button {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #E4C1AE;
+  padding: 16px 40px 16px 40px;
+  border-radius: 32px;
+  text-decoration: none;
+  margin-top: 32px;
+  position: absolute;
+  left: 96px;
+  bottom: 10px;
+}
 
 #image-hero {
   width: 1440px;
