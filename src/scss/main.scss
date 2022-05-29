@@ -138,3 +138,53 @@ body{
 	}
 
 }
+//mobile
+@media (max-width: 1920px){
+
+	#alert{
+
+		max-width: 80%;
+	}
+	#image-hero{
+
+		max-width: 80%;
+		height: auto;
+	}
+
+}
+@media (max-width:1000px){
+
+	.col-50{
+		width: 100%;
+		float: none;
+	}
+	#image-hero{
+		width: 80%;
+		height: auto;
+		margin: auto;
+		margin-left: auto;
+		.content{
+
+			width: 100%;
+			margin: auto;
+			color: $text-black;}
+
+	}
+	#alert{
+
+		max-width: 80%;
+		h1{
+
+			margin-left: 15px;
+			margin-top: 38px;
+
+		}
+		p{
+
+			margin: 0;
+			text-align: center;
+
+		}
+
+	}
+}
